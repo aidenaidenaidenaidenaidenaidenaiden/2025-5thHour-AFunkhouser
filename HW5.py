@@ -6,7 +6,7 @@
 #1. Create a list with 9 different numbers inside.
 pie = [45, 2, 75, 23, 13, 16, 7, 32, 1631]
 #2. Sort the list from highest to lowest.
-pie.sort()
+pie.sort(reverse=True)
 #3. Create an empty list.
 thegame = []
 #4. Remove the median number from the first list and add it to the second list.
