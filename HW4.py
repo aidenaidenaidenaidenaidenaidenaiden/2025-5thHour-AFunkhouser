@@ -10,7 +10,7 @@ aiden = ["hi im aiden", "tomato sauce", "pi", "3.1415926535897932384626433832795
 #2. Append a new name onto the Name List.
 aiden.append(input())
 #3. Print out the 4th name on the list.
-print(aiden[4])
+print(aiden[3])
 #4. Create a list with 4 different integers in it.
 pi = [3.14, 159, 265, 358]
 #5. Insert a new integer into the 2nd spot and print the new list.
