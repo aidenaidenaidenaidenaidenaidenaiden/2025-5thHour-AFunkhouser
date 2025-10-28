@@ -16,8 +16,8 @@
 #the right classification
 
 #Code Here:
-weight = int(input("Enter weight: "))
-height = int(input("Enter height: "))
+weight = float(input("Enter weight (kg): "))
+height = float(input("Enter height (meters): "))
 BMI = weight / (height ** 2)
 print(f"Your BMI is: {BMI}")
 if BMI < 18.5:
