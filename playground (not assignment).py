@@ -11,5 +11,5 @@ e = b[0]
 f = c[0]
 slotmachine = d, e, f
 print(slotmachine)
-if d = "Bar" and e = "Bar" and f = "Bar":
+if d == "Bar" and e == "Bar" and f == "Bar":
     print(d)
