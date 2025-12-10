@@ -110,7 +110,7 @@ while partyDict["Shadowheart"]["HP"] > 0 and enemyDict["Orc"]["HP"] > 0:
         time.sleep(0.5)
         print(f"You rolled a {d20} for attack, and the enemy has an AC of 13.")
         time.sleep(0.5)
-        if d20 >= 13 and d20 < 20:
+        if d20 + partyDict["Shadowheart"]["AtkMod"] >= 13 and d20 < 20:
             print("The attack lands! You deal some damage.")
             time.sleep(0.5)
             enemyDict["Orc"]["HP"] -= random.randint(1, 6) + 3
@@ -139,7 +139,7 @@ while partyDict["Shadowheart"]["HP"] > 0 and enemyDict["Orc"]["HP"] > 0:
     else:
         print(f"The enemy tries to attack, and gets a {d20}, and your AC is 18.")
         time.sleep(0.5)
-        if d20 >= 18 and d20 < 20:
+        if d20 + enemyDict["Orc"]["AtkMod"] >= 18 and d20 < 20:
             print("The enemy succeeds! You take some damage.")
             time.sleep(0.5)
             partyDict["Shadowheart"]["HP"] -= random.randint(1, 12) + 3
