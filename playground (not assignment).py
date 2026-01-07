@@ -43,10 +43,48 @@ random.shuffle(ezlist)
 
 print("rock paper scissors")
 
-bleh = input("do you want to play against easy or hard npc?")
+bleh = input("do you want to play against easy or hard npc? ")
 if bleh == "easy":
     while True:
-        input("choose rock, paper, or scissors  ")
+        ans = input("choose rock, paper, or scissors  ")
         random.shuffle(ezlist)
-        print(ezlist[0])
-        if bleh == "rock" :
+        if ans == "rock" :
+            print(ezlist[0])
+            if ezlist[0] == "rock":
+                continue
+            if ezlist[0] == "paper":
+                print("YOU LOSE!!!")
+                break
+            if ezlist[0] == "scissors":
+                print("YOU WIN!!!")
+                break
+        if ans == "paper" :
+            print(ezlist[0])
+            if ezlist[0] == "rock":
+                print("YOU WIN!!!")
+                break
+            if ezlist[0] == "paper":
+                continue
+            if ezlist[0] == "scissors":
+                print("YOU LOSE!!!")
+                break
+        if ans == "scissors" :
+            print(ezlist[0])
+            if ezlist[0] == "rock":
+                print("YOU LOSE!!!")
+                break
+            if ezlist[0] == "paper":
+                print("YOU WIN!!!")
+            if ezlist[0] == "scissors":
+                continue
+if bleh == "hard":
+    ans = input("choose rock, paper, or scissors  ")
+    if ans == "rock" :
+        print("paper")
+        print("YOU LOSE!!!")
+    if ans == "paper" :
+        print("scissors")
+        print("YOU LOSE!!!")
+    if ans == "scissors":
+        print("rock")
+        print("YOU LOSE!!!")
