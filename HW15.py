@@ -32,7 +32,7 @@ print(list[3])
 i = 1
 while i < 102: #this is to let i be greater than 100
     print(i)
-    i += 1
+    i += i
 #11. Create a list containing the names of five other students in the classroom.
 classlist = ["Dylan", "Ivan", "Sam", "Aiden", "Hogan"]
 #12. Create a for loop that individually prints out the names of each student in the list.
