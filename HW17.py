@@ -27,4 +27,3 @@ def end():
     else:
         exit()
 rps(p1 = int(input("rock = 1, paper = 2, scissors = 3. Choose one. ")))
-end()
