@@ -50,37 +50,3 @@ while a > b or b > a:
 if a == b:
     print(times)
 '''
-def q():
-    a = input("Is sam an idiot? yes/yes  ")
-    if a == "yes":
-        print("Correct!")
-    elif a == "nes":
-        print("Ness? PK FIRE! Now try again.")
-        q()
-    elif a == "no":
-        print("WRONG TRY AGAIN")
-        q()
-    elif a == "yo":
-        print("yo-yo? Ness' yo-yo? Try again.")
-        q()
-    else:
-        print("Try again.")
-        q()
-def c():
-    b = input("Is sir Aiden the handsome, majestic, and great an idiot? no/no  ")
-    if b == "no":
-        print("Correct!")
-    elif b == "nes":
-        print("Ness? PK FIRE! Now try again.")
-        c()
-    elif b == "yes":
-        print("NO HE ISNT TRY AGAIN")
-        c()
-    elif b == "yo":
-        print("yo-yo? Ness' yo-yo? Try again.")
-        c()
-    else:
-        print("Try again.")
-        c()
-q()
-c()
