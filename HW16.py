@@ -19,10 +19,7 @@ def number(num):
     for i in range (1, num + 1):
         print(i)
 #5. Call all the functions created in 1 - 4 with relevant arguments.
-hw()
-avg(1, 2, 3)
-info("axolotl", "bat", "t rex", "gorilla", "giraffe")
-number(int(input("Enter the number: ")))
+# gone. reduced to atoms.
 #6. Create a variable x that has the value of 2. Print x
 x = 2
 print(x)
