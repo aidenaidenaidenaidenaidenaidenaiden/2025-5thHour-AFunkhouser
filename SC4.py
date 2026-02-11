@@ -11,22 +11,12 @@ import random
 
 #Once that is done, to ensure that the average of the statblock is fair (somewhere roughly between 12-13), he wants you
 #to plug it into a calculator (SC5) and print the average.
-
+stats = []
 def roll():
-    global d6
-    d6 = [random.randint(1,6), random.randint(1,6), random.randint(1,6), random.randint(1,6)]
-    d6.sort()
+    for i in range(6):
+        d6 = [random.randint(1,6), random.randint(1,6), random.randint(1,6), random.randint(1,6)]
+        d6.sort()
+        rolls = d6[1] + d6[2] + d6[3]
+        stats.append(rolls)
+    print(stats)
 roll()
-roll1 = d6[1] + d6[2] + d6[3]
-roll()
-roll2 = d6[1] + d6[2] + d6[3]
-roll()
-roll3 = d6[1] + d6[2] + d6[3]
-roll()
-roll4 = d6[1] + d6[2] + d6[3]
-roll()
-roll5 = d6[1] + d6[2] + d6[3]
-roll()
-roll6 = d6[1] + d6[2] + d6[3]
-stats = [roll1, roll2, roll3, roll4, roll5, roll6]
-print(stats)

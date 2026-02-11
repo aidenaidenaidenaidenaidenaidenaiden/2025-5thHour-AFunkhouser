@@ -9,7 +9,7 @@ listAverage = 0
 
 def final_average():
     global listAverage
-    listAverage = sum(stats)/6 #Calculate the sum of the list by the length of the list here
+    listAverage = sum(stats)/len(stats) #Calculate the sum of the list by the length of the list here
     return listAverage
 
 final_average()
