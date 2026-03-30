@@ -4,8 +4,7 @@
 
 
 #1. Import the random and time libraries, read the other objectives thoroughly before beginning.
-import random
-import time
+
 #2. Print Hello World!
 
 #3. Create a class called Calendar that contains the following attributes: self, name, days, holidays, leapyear.
