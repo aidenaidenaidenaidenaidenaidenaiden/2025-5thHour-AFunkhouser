@@ -15,7 +15,7 @@ print(a,b,c)
 colors = ["Smaragdine", "Quercitron", "Coquelicot", "Filemot", "Aureolin"]
 #4. Use a function to randomly choose one of the 5 colors from the list and print the result.
 random.shuffle(colors)
-print(colors)
+print(colors[0])
 #5. Create an if statement that determines which of the three variables from #2 is the lowest.
 if a < b:
     if a < c:
